@@ -1,9 +1,9 @@
 # POLICY ITERATION ALGORITHM
 
-## AIM
+## AIM:
 To develop a Python program to find the optimal policy for the given MDP using the policy iteration algorithm.
 
-## PROBLEM STATEMENT
+## PROBLEM STATEMENT:
 The bandit slippery walk problem is a reinforcement learning problem in which an agent must learn to navigate a 7-state environment in order to reach a goal state. The environment is slippery, so the agent has a chance of moving in the opposite direction of the action it takes.
 
 ### States
@@ -36,7 +36,7 @@ For example, if the agent is in state S and takes the "R" action, then there is 
 ![1](https://github.com/EASWAR17/policy-iteration-algorithm/assets/94154683/9a4eff4c-2b33-4ea0-bea6-9a880ca62559)
 
 
-## POLICY ITERATION ALGORITHM
+## POLICY ITERATION ALGORITHM:
 The algorithm implemented in the policy_iteration is a method used to find the optimal policy in a Markov decision process (MDP). Here's a step-by-step explanation of the algorithm:
 
 1. Initialize the policy **pi**. In this implementation, a random action is chosen for each state s in the MDP **P**. The initial policy is represented by the lambda function **pi=lambda s:{s:a for s,a in enumerate(random_actions)}[s]**, where random_actions is a list of randomly chosen actions for each state.
@@ -55,10 +55,10 @@ The algorithm implemented in the policy_iteration is a method used to find the o
 
 To summarize, policy iteration iteratively improves the policy by alternating between policy evaluation and policy improvement steps until convergence is reached. The algorithm guarantees to find the optimal policy for the given MDP **P** with a discount factor **gamma**.
 
-## POLICY IMPROVEMENT FUNCTION
+## POLICY IMPROVEMENT FUNCTION:
 ```py
-#developed by : Bairav Skandan Loha
-#register numeber: 212221230010
+#developed by : SHRIRAM R
+#register numeber: 212221240053
 ```
 
 ```py
